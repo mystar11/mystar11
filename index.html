@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BJ Tech Notes — Telecom, Network, 5G, Service Assurance, Data Center, Security and technology commercialization field notes by BumJun Lee." />
+  <title>BJ Tech Notes | BumJun Lee</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="./index.html"><span class="brand-mark">BJ</span><span>BJ Tech Notes</span></a>
+      <nav class="nav">
+        <a href="#notes">Tech Notes</a>
+        <a href="#topics">Topics</a>
+        <a href="./profile.html">Profile</a>
+        <a href="https://github.com/mystar11" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">FIELD NOTES FROM TELECOM & ICT</p>
+          <h1>Technology is useful<br/>only when it works<br/><span>in the real network.</span></h1>
+          <p class="hero-lead">통신망 엔지니어링, 글로벌 벤더 Korea Country Management, 기술사업개발과 상용화 과정에서 직접 경험한 내용을 기록합니다. 제품 소개보다 <strong>무엇이 문제였고, 어떻게 검증했으며, 어떻게 상용화했는가</strong>에 집중합니다.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#notes">최신 글 보기</a>
+            <a class="button ghost" href="./profile.html">Executive Profile</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <p class="card-label">BumJun Lee · BJ</p>
+          <h2>Telecom & ICT<br/>Business Leader</h2>
+          <div class="metric"><strong>30+ Years</strong><span>Telecom & ICT</span></div>
+          <div class="metric"><strong>Tier-1 Operators</strong><span>KT · SKT · LG U+</span></div>
+          <div class="metric"><strong>Engineering → Business</strong><span>Design · PoC · Commercialization</span></div>
+          <div class="tags"><span>5G</span><span>TWAMP</span><span>SDDC</span><span>Data Center</span><span>PQC</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="shell section" id="notes">
+      <div class="section-title">
+        <div><p class="eyebrow">LATEST NOTES</p><h2>현장에서 나온 기술 이야기</h2></div>
+        <p>Specification과 마케팅 자료를 넘어 실제 운영 조건에서 어떤 문제가 생기고 무엇을 확인해야 하는지 정리합니다.</p>
+      </div>
+
+      <div class="featured-grid">
+        <article class="post-card featured">
+          <div class="post-meta"><span>CARRIER IP / BROADBAND</span><time>2026.08.29</time></div>
+          <h3><a href="./posts/kt-broadband-authentication.html">통신 서비스에서 인증 구조가 장애 포인트가 될 때</a></h3>
+          <p>KT ADSL 가입자 인증 구조 개선 경험을 통해 DHCP, AAA, Subscriber Management와 서비스 가용성의 관계를 살펴봅니다.</p>
+          <a class="read-more" href="./posts/kt-broadband-authentication.html">Read note →</a>
+        </article>
+
+        <article class="post-card">
+          <div class="post-meta"><span>SERVICE ASSURANCE</span><time>2026.08.29</time></div>
+          <h3><a href="./posts/twamp-service-assurance.html">네트워크 품질을 '측정 가능하게' 만드는 방법</a></h3>
+          <p>Active Monitoring과 TWAMP를 이용해 Latency, Jitter, Packet Loss를 지속적으로 측정하고 SLA와 연결하는 방법을 정리합니다.</p>
+          <a class="read-more" href="./posts/twamp-service-assurance.html">Read note →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="topic-band" id="topics">
+      <div class="shell section">
+        <div class="section-title light">
+          <div><p class="eyebrow">TOPICS</p><h2>What I Write About</h2></div>
+          <p>기술 자체뿐 아니라 검증, 운영, 상용화까지 이어지는 전체 흐름을 다룹니다.</p>
+        </div>
+        <div class="topic-grid">
+          <article><span>01</span><h3>Network Architecture</h3><p>Carrier IP · Broadband · Subscriber Management · Mobile Backhaul · 4G/5G · SDDC</p></article>
+          <article><span>02</span><h3>Service Assurance</h3><p>Active Monitoring · TWAMP · SLA · Latency · Jitter · Packet Loss · Validation</p></article>
+          <article><span>03</span><h3>Data Center & AI</h3><p>Data Center Network · Cloud · GPU Infrastructure · AI Data Center · Performance</p></article>
+          <article><span>04</span><h3>Security & Crypto</h3><p>TLS · TDE · Key Isolation · PCIe Security Accelerator · PQC · Certification</p></article>
+          <article><span>05</span><h3>Technology Business</h3><p>PoC · Technical Proposal · Korea GTM · Partner Ecosystem · Commercialization</p></article>
+          <article><span>06</span><h3>Field Validation</h3><p>Scale · Failure Mode · Integration · Operations · Measurement · Acceptance Test</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section field-note">
+      <p class="eyebrow">FIELD PRINCIPLE</p>
+      <blockquote>“기술 검증의 핵심은 최고 성능을 보여주는 것이 아니라, 실제 운영 조건에서도 예측 가능하게 동작한다는 것을 증명하는 것이다.”</blockquote>
+      <div class="question-grid">
+        <p>기존 시스템과 실제로 어떻게 연동되는가?</p>
+        <p>장애 시 서비스는 어디까지 유지되는가?</p>
+        <p>Scale이 증가하면 어디가 먼저 병목이 되는가?</p>
+        <p>운영자가 실제로 관리 가능한 구조인가?</p>
+        <p>Lab 결과가 운영망에서도 재현되는가?</p>
+        <p>PoC 이후 상용서비스로 연결 가능한가?</p>
+      </div>
+    </section>
+
+    <section class="shell section upcoming">
+      <div class="section-title">
+        <div><p class="eyebrow">UPCOMING</p><h2>다음에 다룰 주제</h2></div>
+      </div>
+      <ol>
+        <li><span>01</span>5G Core / UPF 검증에서 무엇을 측정해야 하는가</li>
+        <li><span>02</span>Private 5G Acceptance Test 설계</li>
+        <li><span>03</span>TLS Offload와 암호 가속기의 실제 효과 측정</li>
+        <li><span>04</span>Post-Quantum Cryptography 전환 시 제품 검증 포인트</li>
+        <li><span>05</span>PCIe Security Accelerator와 Key Isolation</li>
+        <li><span>06</span>신기술 PoC를 상용 사업으로 전환하는 방법</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div><strong>BJ Tech Notes</strong><p>Engineering experience, commercial perspective, and field lessons from telecom & ICT.</p></div>
+      <div class="footer-links"><a href="mailto:bjlee210@gmail.com">Email</a><a href="https://www.linkedin.com/in/bumjun-lee-8b30562/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/mystar11" target="_blank" rel="noreferrer">GitHub</a></div>
+    </div>
+  </footer>
+</body>
+</html>
